@@ -30,8 +30,11 @@ jobs:
   
     - name: Running my python script
       run: |
-        python3 script.py 
-        python3 script2.py      
+        python3 script.py      
     # - name: Test with pytest
     #   run: |
     #     pytest
+
+    - name: Running my second python script
+      run: |
+        python3 script2.py  
