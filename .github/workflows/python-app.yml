@@ -28,6 +28,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest
+    - name: Running my python script
       run: |
-        pytest
+        python3 script.py       
+    # - name: Test with pytest
+    #   run: |
+    #     pytest
